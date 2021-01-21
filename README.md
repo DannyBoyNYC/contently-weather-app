@@ -2,11 +2,28 @@
 
 ## Notes
 
-This app was (apparently) created with Create React App.
+Live: https://deverell-contently-weather.netlify.app/
+
+This repo: https://github.com/DannyBoyNYC/contently-weather-app/tree/master
+
+Four hours was not enough time for me to properly complete the project 🕧, but I did manage to rough it out in about half a day (and wouldn't mind coming back to it).
+
+There are a number of TODOs ✅ in the code and I would have added more so here is a short list of issues I would have looked into given more time:
+
+- The data fetching is pretty raw 🥩 and most do not have error handling 🙀. (Would normally used Promise.all)
+- I did not properly implement the sharing mechanism (would normally install React Router for this) but there is a minimal implementation that just barely works and should at least give an idea of my approach
+- In terms of UI/UX I would normally have the 5 day forecast visible by default but for some reason thought the requirements said otherwise 🤷🏼‍♂️
+- I didin't like the initial starting point being a lonely input field so I decided to query the ipapi for an initial weather view
+- I did not have time to implement testing 😿
+- Didn't add loading indicators...
+
+## Instructions
 
 An Open weather API key is required. Rename `.env.sample` to `.env` and add your key within.
 
-Run using `$npm install` and `npm start`.
+Run using `$npm install` and `$npm start`.
+
+---
 
 ## Summary
 
