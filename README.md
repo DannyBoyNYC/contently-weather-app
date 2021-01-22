@@ -8,6 +8,8 @@ This repo: https://github.com/DannyBoyNYC/contently-weather-app/tree/master
 
 Four hours was not enough time for me to properly complete the project 🕧, but I did manage to rough it out in about half a day (and wouldn't mind coming back to it).
 
+Written using class components because that's what I'm using in the day job and I was hoping would be faster. Wouldn't mind refactoring to hooks as part of a clean up.
+
 There are a number of TODOs ✅ in the code and I would have added more so here is a short list of issues I would have looked into given more time:
 
 - The data fetching is pretty raw 🥩 and most do not have error handling 🙀. (Would normally used Promise.all)
